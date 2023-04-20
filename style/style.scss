@@ -113,8 +113,8 @@ body {
 }
 
 .header-img {
-  max-width: 100%;
-  margin: 12vh 0 0 0;
+  max-width: 70%;
+  margin: 5vh;
 }
 
 .photo-block {
@@ -141,19 +141,19 @@ body {
 
 .header-title {
   font-weight: 700;
-  font-size: 72px;
+  font-size: 48px;
   line-height: 84px;
-  margin: 8vh 0 0 0;
+  margin: 4vh 0 0 0;
 }
 
 .header-description {
   font-weight: 500;
-  font-size: 36px;
+  font-size: 32px;
   line-height: 84px;
 }
 
 .header-contacts {
-  margin: 6vh 0 0 0;
+  margin: 4vh 0 0 0;
 }
 
 .header-contacts-list {
@@ -170,7 +170,7 @@ body {
 
 .header-contacts-item {
   list-style-type: none;
-  margin: 0 0 4vh 0;
+  margin: 0 0 2vh 0;
   width: 50%;
 }
 
@@ -290,7 +290,6 @@ body {
   color: #161b25;
   font-weight: 700;
   font-size: 43px;
-  line-height: 80px;
   letter-spacing: 6px;
 }
 
@@ -362,7 +361,7 @@ body {
 
 .content-skills-item {
   list-style-type: none;
-  width: 50%;
+  width: 33%;
   margin: 0 0 0.5vh 0;
 }
 
@@ -381,8 +380,8 @@ body {
   border-bottom-right-radius: 4px;
 }
 
-.content-english-description {
-  margin: 0 0 3vh 0;
+.content-language-description {
+  margin: 0 0 0 0;
   font-weight: 300;
   font-size: 20px;
   line-height: 32px;
@@ -403,7 +402,7 @@ body {
     line-height: 28px;
   }
 
-  .content-english-description {
+  .content-language-description {
     font-size: 16px;
     line-height: 28px;
   }
@@ -462,7 +461,7 @@ body {
 
   .left-block-strip {
     width: 100%;
-    margin: 0;
+    margin: 0 auto;
   }
 
   .content-hobbies-item {
