@@ -1,1 +1,1 @@
-https://osipikav.github.io/cv/
+https://osipikav-cv.netlify.app/
