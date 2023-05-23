@@ -130,13 +130,12 @@ body {
   font-weight: 700;
   font-size: 48px;
   line-height: 84px;
-  margin: 4vh 0 0 0;
+  margin: 2vh 0 0 0;
 }
 
 .header-description {
   font-weight: 500;
   font-size: 32px;
-  line-height: 84px;
 }
 
 .header-contacts {
