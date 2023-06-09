@@ -53,6 +53,9 @@ body {
 
 .left-block-strip__header {
   background-color: #212530;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .left-block-strip__content {
@@ -100,8 +103,8 @@ body {
 }
 
 .header-img {
-  max-width: 70%;
-  margin: 5vh;
+  max-width: 80%;
+  border-radius: 50%;
 }
 
 .photo-block {
@@ -216,6 +219,7 @@ body {
   }
   .header-wrapper {
     display: flex;
+    justify-content: center;
   }
   .photo-block {
     display: block;
@@ -224,6 +228,7 @@ body {
     width: 80%;
     max-width: 320px;
     margin: 0 0 0 0;
+    border-radius: 50%;
   }
   .header .left-block {
     display: none;
@@ -240,6 +245,15 @@ body {
   .header-title {
     margin: 2vh 0 0 0;
     line-height: 55px;
+  }
+  .header-title,
+  .header-description,
+  .header-contacts-item {
+    display: flex;
+    justify-content: center;
+  }
+  .header-contacts-link {
+    margin-left: 0.5vh;
   }
 }
 /******************** main content ********************/
@@ -408,6 +422,16 @@ body {
   .left-block-strip {
     width: 100%;
     margin: 0 auto;
+  }
+  .left-block-strip__content {
+    padding: 1vh 5% 1vh 5%;
+  }
+  .content-education-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .content-education-item {
+    width: 50%;
   }
   .content-hobbies-item {
     margin: 0;
