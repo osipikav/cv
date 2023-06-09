@@ -278,26 +278,13 @@ body {
 
 .content-hobbies-list {
   list-style-type: none;
-  margin: 0 0 0 30px;
 }
 
 .content-hobbies-item {
   font-weight: 500;
   font-size: 20px;
-  margin: 0 0 2vh 0;
+  margin: 0 0 1vh 0;
   position: relative;
-}
-
-.content-hobbies-item:before {
-  content: "";
-  position: absolute;
-  top: 0px;
-  left: -30px;
-  display: block;
-  width: 20px;
-  height: 20px;
-  background-color: #171b26;
-  border-radius: 50%;
 }
 
 .content-expiriens-date {
