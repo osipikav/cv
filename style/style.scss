@@ -72,12 +72,12 @@ body {
 
 .expiriens-left-block {
   flex-wrap: nowrap;
-  width: 30%;
+  width: 25%;
 }
 
 .expiriens-right-block {
   flex-wrap: nowrap;
-  width: 70%;
+  width: 75%;
 }
 
 .footer-wrapper {
@@ -240,10 +240,6 @@ body {
 }
 
 @media (max-width: 767px) {
-  // .right-block {
-  //   display: flex;
-  //   justify-content: center;
-  // }
   .header {
     padding: 20px 0 0 0;
   }
@@ -322,10 +318,13 @@ body {
 
 .content-hobbies-list {
   list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .content-hobbies-item {
-  font-weight: 500;
+  width: 50%;
+  font-weight: 400;
   font-size: 20px;
   margin: 0 0 1vh 0;
   position: relative;
@@ -353,6 +352,8 @@ body {
   font-weight: 300;
   font-size: 20px;
   line-height: 32px;
+  text-align: justify;
+  text-justify: inter-character;
 }
 
 .content-expiriens-item {
