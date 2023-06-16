@@ -278,6 +278,7 @@ body {
   .header-title {
     margin: 2vh 0 0 0;
     line-height: 55px;
+    font-size: 32px;
   }
 
   .header-title,
@@ -289,10 +290,20 @@ body {
 
   .header-contacts-link {
     margin-left: 0.5vh;
+    display: flex;
+    align-items: center;
   }
 }
 
-@media (min-width: 320px) and (max-width: 500px) {
+@media (min-width: 320px) and (max-width: 560px) {
+  // .header-contacts-list {
+  //   width: 100%;
+  //   align-items: center;
+  //   flex-direction: column;
+  // }
+  .header-contacts-item {
+    width: 100%;
+  }
 }
 
 /******************** main content ********************/
