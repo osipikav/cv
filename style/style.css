@@ -18,7 +18,9 @@ h1 {
 /******************** base ********************/
 body {
   /* font-family: 'Poppins', sans-serif; */
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -517,7 +519,7 @@ body {
 .row:before,
 .row:after {
   display: table;
-  content: " ";
+  content: ' ';
 }
 
 .row:after {
@@ -527,7 +529,7 @@ body {
 .row:before,
 .row:after {
   display: table;
-  content: " ";
+  content: ' ';
 }
 
 .row:after {
@@ -570,7 +572,7 @@ body {
 }
 
 .b-resume-main-title:after {
-  content: "";
+  content: '';
   display: table;
   clear: both;
 }
@@ -760,4 +762,4 @@ strong {
   margin: 0 auto;
   text-align: center;
   transform: rotate(-45deg);
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
